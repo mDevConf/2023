@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpeg");
+	background-image: url("assets/images/background_image_1.png");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -475,7 +475,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/head-featured-bg.jpeg");
+	background-image: url("assets/images/background_image_1.png");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -989,7 +989,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/head-featured-bg.jpeg");
+	background-image: url("assets/images/background_image_1.png");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
