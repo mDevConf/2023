@@ -789,7 +789,6 @@ iframe {
 /*--------------------*/
 
 #mu-team {
-	background-color: rgba(128, 128, 128, 0.2);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -838,6 +837,7 @@ iframe {
 
 .mu-single-team-info p {
 	margin-bottom: 5px;
+	color: #a32633;
 }
 
 .mu-single-team-social {
@@ -862,7 +862,7 @@ iframe {
 
 
 #mu-speakers {
-	background-color: rgba(254, 50, 76, 0.08);
+	background-color: rgba(128, 128, 128, 0.2);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -919,6 +919,7 @@ iframe {
 
 .mu-single-speakers-info p {
 	margin-bottom: 5px;
+	
 }
 
 .mu-single-speakers-social {
