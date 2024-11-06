@@ -865,8 +865,7 @@ iframe {
 	background-color: rgba(128, 128, 128, 0.2);
 	display: inline;
 	float: left;
-	width: 100%;
-	
+	width: 100%;	
 }
 
 .mu-speakers-area {
@@ -1787,6 +1786,13 @@ iframe {
 	body {
 		font-size: 14px;
 	}
+	.mu-single-speakers img {
+		padding-left: 11vw;
+	}
+
+	.mu-single-team img {
+		padding-left: 11vw;
+	}
 
 	.mu-logo {
 		margin-bottom: 10px;
@@ -1969,7 +1975,6 @@ iframe {
 	.mu-video-iframe-area {
 		padding: 30% 5%;
 	}
-
 	.mu-event-timeline ul li .mu-single-event, 
 	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event, 
 	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
