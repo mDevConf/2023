@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/background_image_1.png");
+	background-image: url("assets/images/2024/background_image_1.png");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -475,7 +475,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/background_image_1.png");
+	background-image: url("assets/images/2024/background_image_1.png");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -584,6 +584,53 @@ button:focus {
 
 .mu-video-iframe-area iframe {
 
+}
+
+/*--------------------*/
+/* CARROUSEL */
+/*--------------------*/
+
+.carousel {
+    width: 100%;
+    max-width: 854px;
+    overflow: hidden;
+    margin: 50px auto;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    flex: 1 0 100%;
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 480px;
+    border: none;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 
@@ -737,6 +784,77 @@ button:focus {
 	font-size: 12px;
 }
 
+/*--------------------*/
+/* Team */
+/*--------------------*/
+
+#mu-team {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-team-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+	
+}
+
+.mu-team-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-single-team {
+	padding: 0 10px;
+	outline: none;
+	text-align: center;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.mu-single-team img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.mu-single-team-info {
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.mu-single-team-info h3 {
+	margin-bottom: 4px;
+	font-size: 22px;
+}
+
+.mu-single-team-info p {
+	margin-bottom: 5px;
+	color: #a32633;
+}
+
+.mu-single-team-social {
+
+}
+
+.mu-single-team-social li {
+	display: inline-block;
+}
+
+.mu-single-team-social li a {
+	display: inline-block;
+	margin-right: 5px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
 
 /*--------------------*/
 /* SPEAKERS */
@@ -744,10 +862,10 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background-color: rgba(128, 128, 128, 0.2);
 	display: inline;
 	float: left;
-	width: 100%;
+	width: 100%;	
 }
 
 .mu-speakers-area {
@@ -772,6 +890,12 @@ button:focus {
 	transition: all 0.3s ease 0s;
 }
 
+.mu-single-speakers img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
 .mu-speakers-slider .slick-next {
 	right: -60px;
 }
@@ -794,6 +918,7 @@ button:focus {
 
 .mu-single-speakers-info p {
 	margin-bottom: 5px;
+	
 }
 
 .mu-single-speakers-social {
@@ -989,7 +1114,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/background_image_1.png");
+	background-image: url("assets/images/2024/background_image_1.png");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1661,6 +1786,13 @@ button:focus {
 	body {
 		font-size: 14px;
 	}
+	.mu-single-speakers img {
+		padding-left: 11vw;
+	}
+
+	.mu-single-team img {
+		padding-left: 11vw;
+	}
 
 	.mu-logo {
 		margin-bottom: 10px;
@@ -1843,7 +1975,6 @@ button:focus {
 	.mu-video-iframe-area {
 		padding: 30% 5%;
 	}
-
 	.mu-event-timeline ul li .mu-single-event, 
 	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event, 
 	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
